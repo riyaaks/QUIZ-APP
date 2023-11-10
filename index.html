@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    
+    <div class="quiz-container">
+        
+        <h1>Quiz App</h1>
+        <div class="question-container">
+            <p id="question-text" class="question-text"></p>
+            <p id="timer" class="timer"></p>
+        </div>
+        <div class="options-container" id="options-container">
+            <!-- Options will be added here dynamically -->
+        </div>
+        <button id="next-button">Next</button>
+        <button id="restart-button" style="display: none;">Restart</button>
+        <p id="feedback"></p>
+        <p id="score">Score: 0</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
